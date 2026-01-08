@@ -8,6 +8,8 @@ Custom Integration fuer Geosphere Austria (ZAMG) Wetterwarnungen in Oesterreich.
 # Datenquelle
 Website: https://warnungen.zamg.at/
 
+Dokumentation: https://openapi.hub.geosphere.at/warnapi/v1/#/warnings/getWarningsForCoords
+
 API Link Beispiel: https://warnungen.zamg.at/wsapp/api/getWarningsForCoords?lon=16.214837&lat=48.2203441&lang=de
 
 ## Features
