@@ -1,6 +1,6 @@
 {
   "domain": "geosphere_wetterwarnung",
-  "name": "geosphere Wetterwarnung",
+  "name": "GeoSphere Wetterwarnung",
   "version": "0.1.0",
   "documentation": "https://github.com/chackl1990/hass-geosphere-wetterwarnung",
   "requirements": [],
@@ -13,5 +13,6 @@
     "custom_components.geosphere_wetterwarnung"
   ]
 }
+
 
 
