@@ -1,0 +1,9 @@
+{
+  "name": "Geosphaere Wetterwarnung",
+  "content_in_root": false,
+  "domains": [
+    "binary_sensor",
+    "sensor"
+  ],
+  "render_readme": true
+}
