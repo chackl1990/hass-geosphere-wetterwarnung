@@ -20,7 +20,7 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Geosphäre Wetterwarnung from a config entry."""
+    """Set up GeoSphere Wetterwarnung from a config entry."""
     coordinator = geosphereCoordinator(hass, entry)
     await coordinator.async_config_entry_first_refresh()
 
@@ -49,4 +49,5 @@ async def async_reload_entry(hass: HomeAssistant, entry: ConfigEntry) -> None:
     """Reload when options change."""
     await async_unload_entry(hass, entry)
     await async_setup_entry(hass, entry)
+
 
