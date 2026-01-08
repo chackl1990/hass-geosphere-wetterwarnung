@@ -1,0 +1,22 @@
+alias: Geosphere Wetterwarnung - Warnung
+description: ""
+triggers:
+  - entity_id:
+      - binary_sensor.geosphare_wetterwarnungen_warnung
+    to:
+      - "on"
+    trigger: state
+conditions: []
+actions:
+  - action: persistent_notification.create
+    metadata: {}
+    data:
+      message: >-
+        {{
+
+        state_attr('binary_sensor.geosphare_wetterwarnungen_warnung', 'Warnung
+        Text') or 'Es liegt eine Wetter-Vorwarnung vor.'
+
+        }}
+      title: Wetterwarnung
+mode: single
