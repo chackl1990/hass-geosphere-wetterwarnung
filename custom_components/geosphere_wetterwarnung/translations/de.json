@@ -1,0 +1,33 @@
+{
+  "config": {
+    "flow_title": "Geosphere Wetterwarnung",
+    "step": {
+      "user": {
+        "title": "Geosphere Wetterwarnung",
+        "description": "Konfiguriere Abfrageintervall, Zusatzkoordinaten und Warnung-Halte-Frist.",
+        "data": {
+          "scan_interval": "Scan-Intervall (Sekunden)",
+          "extra_coords": "Zusatzkoordinaten (lat,lon;lat,lon;...)",
+          "grace_period": "Warnung-Halte-Frist für Warnungswechsel (Sekunden)"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Nur eine Instanz ist erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Geosphere Wetterwarnung Optionen",
+        "description": "Optionen für Intervall, Zusatzkoordinaten und Warnung-Halte-Frist.",
+        "data": {
+          "scan_interval": "Scan-Intervall (Sekunden)",
+          "extra_coords": "Zusatzkoordinaten (lat,lon;lat,lon;...)",
+          "grace_period": "Warnung-Halte-Frist für Warnungswechsel (Sekunden)"
+        }
+      }
+    }
+  }
+}
+
